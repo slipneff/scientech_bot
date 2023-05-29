@@ -166,13 +166,11 @@ const bot = new Telegraf(process.env.API_BOT || '');
 bot.start((ctx) => {
     const userId = ctx.from?.id;
 
-    // Проверяем, существует ли уже пользователь
     const user = users.find((u) => u.id === userId);
 
     if (user) {
         ctx.reply('С возвращением! Вы уже участвуете в тесте.');
     } else {
-        // Добавляем нового пользователя
         const newUser: User = {
             id: userId!,
             score: 0,
