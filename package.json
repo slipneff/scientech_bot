@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.12.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "name": "scientech_bot",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slipneff/scientech_bot.git"
+  },
+  "author": "slipneff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slipneff/scientech_bot/issues"
+  },
+  "homepage": "https://github.com/slipneff/scientech_bot#readme",
+  "description": ""
+}
